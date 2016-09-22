@@ -58,7 +58,7 @@ LOG = logging.getLogger(__name__)
 class IndexView(tables.DataTableView):
     table_class = project_tables.InstancesTable
     template_name = 'project/instances/index.html'
-    page_title = _("Instances")
+    page_title = _("Instances ARE AWESOME!!!!")
 
     def has_more_data(self, table):
         return self._more
